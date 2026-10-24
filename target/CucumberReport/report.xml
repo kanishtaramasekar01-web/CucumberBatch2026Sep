@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.146" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-21T07:04:42.504224Z">
+<testcase classname="Validate the facebook login Page" name="Validation of facebook login Page Using Invalid Username and Invalid Password" time="0.013">
+<system-out><![CDATA[
+Given User Enters the facebook url through Chrome browser...................passed
+When User Enters the invalid username and invalid password..................passed
+And User Clicks on the Login Button.........................................passed
+Then User Validates the error Message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the facebook login Page" name="Validation of facebook login Page Using valid Username and invalid Password" time="0.001">
+<system-out><![CDATA[
+Given User Enters the facebook url through Chrome browser...................passed
+When User Enters the valid username and invalid password....................passed
+And User Clicks on the Login Button.........................................passed
+Then User Validates the error Message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the facebook login Page" name="Validation of facebook login Page Using Invalid Username and valid Password" time="0.001">
+<system-out><![CDATA[
+Given User Enters the facebook url through Chrome browser...................passed
+When User Enters the invalid username and valid password....................passed
+And User Clicks on the Login Button.........................................passed
+Then User Validates the error Message.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
